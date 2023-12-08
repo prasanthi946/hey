@@ -1,0 +1,14 @@
+server.port=8080
+
+#mysql properties
+spring.datasource.url=jdbc:mysql://localhost:5432/projectdatabase
+spring.datasource.username=postgres
+spring.datasource.password=1234
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Hibernate properties
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=false
+
